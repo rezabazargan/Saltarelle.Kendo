@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Html;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -11,5 +12,7 @@ namespace Saltarelle.Kendo.Grid
     [IgnoreNamespace]
     public sealed class GridEventArgs : EventArgs
     {
+        public Element CurrentTarget;
+        
     }
 }

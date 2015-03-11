@@ -34,57 +34,15 @@ namespace Saltarelle.Kendo.Grid
         #endregion
 
         #region [properies]
-        public GridColumn[] Columns 
-        { 
-            get 
-            { 
-                return null; 
-            } 
-        }
+        public GridColumn[] Columns;
 
         #region [jQuery Elements]
-        public jQueryObject Element 
-        { 
-            get 
-            { 
-                return null; 
-            } 
-        }
-        public jQueryObject Footer 
-        { 
-            get 
-            { 
-                return null; 
-            } 
-        }
-        public jQueryObject Table 
-        { 
-            get 
-            { 
-                return null; 
-            } 
-        }
-        public jQueryObject Tbody 
-        { 
-            get 
-            { 
-                return null;
-            }
-        }
-        public jQueryObject Thead 
-        { 
-            get 
-            { 
-                return null; 
-            } 
-        }
-        public jQueryObject Wrapper 
-        { 
-            get 
-            { 
-                return null; 
-            } 
-        }
+        public jQueryObject Element;
+        public jQueryObject Footer;
+        public jQueryObject Table;
+        public jQueryObject Tbody;
+        public jQueryObject Thead;
+        public jQueryObject Wrapper;
 
         #endregion
 

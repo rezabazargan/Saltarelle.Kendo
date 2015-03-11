@@ -13,14 +13,12 @@ namespace Saltarelle.Kendo.Window
     public sealed class WindowObject
     {
         #region [Properties]
-        public WindowOption Options
-        {
-            get;
-            set;
-        }
+        public WindowOption Options;
 
 
-        public jQueryObject Wrapper { get; set; }
+
+        [ScriptName("wrapper")]
+        public jQueryObject Wrapper;
 
 
         #endregion
