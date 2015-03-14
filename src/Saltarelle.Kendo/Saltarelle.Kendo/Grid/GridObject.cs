@@ -1,4 +1,5 @@
 ﻿using jQueryApi;
+using Saltarelle.Kendo.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,37 @@ namespace Saltarelle.Kendo.Grid
             return null;
         }
 
+        public List<JsDictionary<string,object>> DataItems()
+        {
+            return null;
+        }
+
+        public void Refresh(bool r)
+        {
+
+        }
+
+        public void SetOptions(GridOptions op)
+        {
+
+        }
+        public void SetDataSource(DataSource ds)
+        {
+
+        }
+        public void SaveAsExcel  (){}
+        public void SaveAsPDF    (){} 
+        public void SaveChanges  (){}
+        public void SaveRow() { }
+        public void AddRow() { }
+        public void CancelChanges() { }
+        public void CancelRow() { }
+        public void ClearSelection() { }
+        public void Destroy() { }
+        public GridOptions GetOptions()
+        {
+            return null;
+        }
         #endregion
 
         #region [properies]
@@ -43,10 +75,17 @@ namespace Saltarelle.Kendo.Grid
         public jQueryObject Tbody;
         public jQueryObject Thead;
         public jQueryObject Wrapper;
+        public jQueryObject Content;
+        public jQueryObject Scrollables;
 
         #endregion
 
+        public DataSource DataSource;
+        public GridPager Pager;
 
+        
         #endregion
+
+
     }
 }

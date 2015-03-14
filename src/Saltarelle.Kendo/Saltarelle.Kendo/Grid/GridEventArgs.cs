@@ -13,6 +13,15 @@ namespace Saltarelle.Kendo.Grid
     public sealed class GridEventArgs : EventArgs
     {
         public Element CurrentTarget;
-        
+        public Element DelegateTarget;
+
+        public bool AltKey;
+        public bool Bubbles;
+        public bool Cancelable;
+        public bool ClientX;
+        public bool ClientY;
+        public bool CtrlKey;
+
+        public string BaseURI;
     }
 }
