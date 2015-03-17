@@ -6,7 +6,7 @@ using System.Text;
 namespace Saltarelle.Kendo.Data
 {
     [Imported]
-    [IgnoreNamespace]
+    [ScriptNamespace("kendo.data")]
     public sealed class DataSource
     {
         public DataSourceOption Options;
