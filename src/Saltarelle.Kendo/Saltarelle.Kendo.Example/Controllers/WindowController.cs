@@ -16,5 +16,10 @@ namespace Saltarelle.Kendo.Example.Controllers
             return View();
         }
 
+        public ActionResult AjaxContent()
+        {
+            return PartialView();
+        }
+
     }
 }

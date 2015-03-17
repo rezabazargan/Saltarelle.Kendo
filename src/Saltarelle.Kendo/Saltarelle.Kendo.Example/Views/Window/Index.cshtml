@@ -5,8 +5,35 @@
         </div>
     </section>
     <section class="content-wrapper main-content clear-fix">
-            
+        
+
+            <button class="ui-button ui-button-text-only" id="SimpleWindow"> Simple Window </button>
+  
+        <br /><br />
+            <button class="ui-button ui-button-text-only" id="AjaxWindow"> Ajax Window </button>
 
 
+
+
+
+        <hr />
+
+        <a href="#" id="maximizeWindow"> Restore </a> |
+        <a href="#" id="minimizeWindow"> Minimize </a> |
+        <a href="#" id="centerWindow"> Center </a> |
+        <a href="#" id="closeWindow"> Close </a> 
+        
     </section>
+
+
+
 </div>
+
+
+
+
+<script>
+    $(function () {
+        Saltarelle.Kendo.Test.Window.start();
+    });
+</script>

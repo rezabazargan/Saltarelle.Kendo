@@ -5,12 +5,33 @@
     <meta name="viewport" content="width=device-width" />
     <title> Saltarelle.Kendo </title>
     @Styles.Render("~/Content/css")
+    
+    <link href="~/Content/kendo/2014.2.716/kendo.common.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2014.2.716/kendo.mobile.all.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2014.2.716/kendo.dataviz.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2014.2.716/kendo.metro.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2014.2.716/kendo.dataviz.metro.min.css" rel="stylesheet" />
+    <link href="~/Content/kendo/2014.2.716/kendo.rtl.min.css" rel="stylesheet" />
+
+
+    
     @Scripts.Render("~/bundles/modernizr")
 
     @Scripts.Render("~/bundles/jquery")
 
-    @Styles.Render("~/Content/Kendo")
-    @Scripts.Render("~/Script/Kendo")
+    @*@Styles.Render("~/Content/Kendo")
+    @Scripts.Render("~/Script/Kendo")*@
+
+
+    <script src="~/Scripts/kendo/2014.2.716/jszip.min.js"></script>
+    <script src="~/Scripts/kendo/2014.2.716/kendo.all.min.js"></script>
+    <script src="~/Scripts/kendo/2014.2.716/kendo.aspnetmvc.min.js"></script>
+    <script src="~/Scripts/kendo/2014.2.716/kendo.modernizr.custom.js"></script>
+
+
+    @Scripts.Render("~/bundles/SaltarrleScripts")
+
+
 
 
 </head>
@@ -34,6 +55,7 @@
 
 
     @RenderSection("scripts", required: false)
-    @Scripts.Render("~/bundles/SaltarrleScripts")
+
+    
 </body>
 </html>
